@@ -459,6 +459,12 @@ body {
   color: #212242;
 }
 
+.c-double {
+  font-weight: inherit;
+  margin-left: 6px;
+  margin-top: 1px;
+}
+
 .chats p {
   margin-top: 2px;
 }

@@ -1,6 +1,10 @@
 import React from 'react';
 import Arrow from '../images/arrow.png';
 import Attachment from '../images/attachment.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheckDouble } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Chats = () => {
    return (
@@ -26,7 +30,7 @@ const Chats = () => {
                   Having a baby can be a nerve racking experience for new parents - not the nine months of pregnancy, I'm talking about after the infant is brought home from the hospital. It's always the same thing, by the time they have their third child they have it all figured out, but with number one it's a learning thing.
                </p>
             </div>
-            <p className="chat-time">12:59pm<i class="fas fa-check-double"></i></p>
+            <p className="chat-time">12:59pm <FontAwesomeIcon icon={faCheckDouble} className="c-double" /></p>
          </div>
 
          <div className="chats">
@@ -36,7 +40,7 @@ const Chats = () => {
                   Having a baby can be a nerve racking experience for new parents - not the nine months of pregnancy, I'm talking about after the infant is brought home from the hospital. It's always the same thing, by the time they have their third child they have it all figured out, but with number one it's a learning thing.
                </p>
             </div>
-            <p className="chat-time">02:00pm <ion-icon name="heart"></ion-icon></p>
+            <p className="chat-time">02:00pm <FontAwesomeIcon icon={faCheckDouble} className="c-double" /></p>
          </div>
 
          <div className="base inner-chat">
